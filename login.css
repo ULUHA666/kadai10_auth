@@ -1,0 +1,23 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  input[type="submit"] {
+    padding: 10px 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navbar-header{
+    text-align: center;
+}
+
+input[type="submit"]:hover {
+    background-color: greenyellow; /* ホバー時の背景色 */
+}

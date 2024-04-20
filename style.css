@@ -1,0 +1,39 @@
+.jumbotron {
+    width: 50%;
+    margin: 0 auto; /* 水平方向に中央揃え */
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    text-align: center; /* テキストを中央揃え */
+}
+
+/* フォーム要素のスタイル */
+label {
+    display: block; /* 各ラベルを別の行に表示 */
+    margin-bottom: 10px;
+}
+
+input[type="text"],
+textarea {
+    width: 100%; /* 入力フィールドの幅を親要素に合わせる */
+    padding: 5px;
+    margin-bottom: 10px;
+    box-sizing: border-box; /* paddingとborderを含めた幅と高さを指定 */
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.navbar-header{
+    text-align: center;
+}
+
+input[type="submit"]:hover {
+    background-color: greenyellow; /* ホバー時の背景色 */
+}
