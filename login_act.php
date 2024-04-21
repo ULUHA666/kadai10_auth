@@ -13,7 +13,7 @@ echo $lpw;
 try {
   //Password:MAMP='root',XAMPP=''
   // $pdo = new PDO('mysql:dbname=gs_db;charset=utf8;host=localhost','root','');
-  $pdo = new PDO('mysql:dbname=uluha666_gs_kadai;charset=utf8;host=mysql621.db.sakura.ne.jp','uluha666','uxmu57bk');
+
 } catch (PDOException $e) {
   exit('DB_CONECT:'.$e->getMessage());
 }
